@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zzy Administrator, GEC, LIC=W96CK-ZGVSN-68HFC-7XJ15-PA1N0-VPDNY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\GZFX2108\03-stm32\day13\FreeRTOS_EventGroup\USER\FreeRTOS.uvprojx
+Project File Date:  05/20/2022
+
+<h2>Output:</h2>
+Build target 'FreeRTOS'
+compiling main.c...
+main.c(216): warning:  #177-D: variable "usart_packet" was declared but never referenced
+        struct usart_packet_t usart_packet={0};
+main.c(217): warning:  #177-D: variable "xRes" was declared but never referenced
+        BaseType_t xRes = pdFALSE;
+main.c(219): warning:  #177-D: variable "buf" was declared but never referenced
+        u8 buf[5] = {0};
+main.c(220): warning:  #177-D: variable "temp_buf" was declared but never referenced
+        u8 temp_buf[100] = {0};
+main.c(329): warning:  #177-D: function "app_task_3" was declared but never referenced
+  static void app_task_3(void *pvParameters)
+main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=13336 RO-data=540 RW-data=244 ZI-data=58460  
+FromELF: creating hex file...
+"..\OBJ\demo.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\GZFX2108\03-stm32\day13\FreeRTOS_EventGroup\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
