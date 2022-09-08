@@ -1,3 +1,0 @@
-E:/LED-DEMO/cmake-build-debug/CMakeFiles/LED-DEMO.elf.dir
-E:/LED-DEMO/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/LED-DEMO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
