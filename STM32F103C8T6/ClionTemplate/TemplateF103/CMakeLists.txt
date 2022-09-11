@@ -35,12 +35,12 @@ PROJECT(TemplateF103 C CXX ASM)
 set(CMAKE_CXX_STANDARD 11)
 
 
-file(GLOB_RECURSE SOURCES "startup/*" "STM32F10x_FWLib/*.*" "Core/*.*" "SYSTEM/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "STM32F10x_FWLib/*.*" "Core/*.*" "SYSTEM/*.*")
 include_directories(STM32F10x_FWLib/Inc Core/Inc  SYSTEM/Inc)
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
 set(CMAKE_EXE_LINKER_FLAGS
-        "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map")
+    "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map")
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
