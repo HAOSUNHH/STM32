@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"led-keil\startup_stm32f103xb.o"
+"led-keil\main.o"
+"led-keil\gpio.o"
+"led-keil\stm32f1xx_it.o"
+"led-keil\stm32f1xx_hal_msp.o"
+"led-keil\stm32f1xx_hal_gpio_ex.o"
+"led-keil\stm32f1xx_hal_tim.o"
+"led-keil\stm32f1xx_hal_tim_ex.o"
+"led-keil\stm32f1xx_hal.o"
+"led-keil\stm32f1xx_hal_rcc.o"
+"led-keil\stm32f1xx_hal_rcc_ex.o"
+"led-keil\stm32f1xx_hal_gpio.o"
+"led-keil\stm32f1xx_hal_dma.o"
+"led-keil\stm32f1xx_hal_cortex.o"
+"led-keil\stm32f1xx_hal_pwr.o"
+"led-keil\stm32f1xx_hal_flash.o"
+"led-keil\stm32f1xx_hal_flash_ex.o"
+"led-keil\stm32f1xx_hal_exti.o"
+"led-keil\system_stm32f1xx.o"
+--strict --scatter "LED-KEIL\LED-KEIL.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED-KEIL.map" -o LED-KEIL\LED-KEIL.axf
