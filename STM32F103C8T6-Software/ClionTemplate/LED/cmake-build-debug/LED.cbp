@@ -11,10 +11,10 @@
 				<Option working_dir="E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LED.elf">
@@ -39,10 +39,10 @@
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 LED.elf"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 LED.elf"/>
+					<CompileFile command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LED.elf/fast">
@@ -67,30 +67,30 @@
 					<Add directory="d:\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 LED.elf/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 LED.elf/fast"/>
+					<CompileFile command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;E:/GitHub/STM32/STM32F103C8T6-Software/ClionTemplate/LED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

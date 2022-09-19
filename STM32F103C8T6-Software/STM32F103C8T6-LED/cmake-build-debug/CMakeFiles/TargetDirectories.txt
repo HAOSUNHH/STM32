@@ -1,3 +1,0 @@
-E:/GitHub/STM32/STM32F103C8T6/STM32F103C8T6-LED/cmake-build-debug/CMakeFiles/STM32F103C8T6-LED.elf.dir
-E:/GitHub/STM32/STM32F103C8T6/STM32F103C8T6-LED/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/GitHub/STM32/STM32F103C8T6/STM32F103C8T6-LED/cmake-build-debug/CMakeFiles/rebuild_cache.dir
