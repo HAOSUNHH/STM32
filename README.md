@@ -86,3 +86,6 @@ Error: Flash Download failed - Target DLL has been cancelled
 
 重新编译以下就好了，此时可以正常烧录，不会有报错了
 
+---
+
+## Embedded IDE
